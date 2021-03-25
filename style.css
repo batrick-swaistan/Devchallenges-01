@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,200&display=swap');
+*{
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+  border: none;
+  border-radius: 5px;
+}
+h2{
+  font-weight: 700;
+  padding-left: 60px;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+
+}
+#content{
+  align-items:center;
+  text-align: center;
+}
+ img{
+  width: auto;
+  max-width: 600px;
+  float: left;
+  margin-left: 210px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+
+
+
+}
+.content-desc{
+  padding-top: 100px;
+  padding-left: -10px;
+}
+.content-desc > h1{
+  color: black;
+  font-size: 50px;
+  font-weight: 900;
+  word-spacing: 3px;
+  line-height:55px;
+
+}
+.content-desc > p{
+  color: black;
+  font-size: 27px;
+  word-spacing: 3px;
+  line-height: 35px;
+  font-family: 'Syne Mono', monospace;
+}
+button{
+  color:white;
+  background-color: black;
+  padding: 20px 10px 20px 10px;
+  margin:7px 3px 7px 3px;
+  border:none;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+button:hover{
+  background-color: gray;
+  transition: 1s gray;
+}
+footer{
+  color: gray;
+  clear: both;
+  position: relative;
+  text-align: center;
+  padding-top: 90px;
+  justify-content: center;
+
+}
+footer{
+  font-family: 'Barlow', sans-serif;
+}
+footer >  a{
+  color:gray;
+  text-decoration:none;
+}
+a{
+  color:gray;
+  text-decoration:none;
+}
+ a:hover{
+  color: black;
+}
+
+@media only screen and (max-width:600px) {
+  img{
+    width: auto;
+    max-width: 350px;
+    float: none;
+    margin:0;
+
+  }
+  .content-desc{
+    padding:0;
+  }
+  .content-desc h1{
+    font-size: 35px;
+
+  }
+  .content-desc p{
+    font-size: 20px;
+  }
+  header h2{
+    padding:0;
+    padding-bottom: 15px;
+    margin:0px;
+  }
+  footer{
+    padding-top: 30px;
+  }
+}
