@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://dreamy-hamilton-2fad4a.netlify.app/">
+    <a href="https://dreamy-hamilton-2fad4a.netlify.app/" target="_blank>
       Solution
     </a>
     <span> | </span>
